@@ -1,14 +1,7 @@
 return {
   {
-    'shaunsingh/nord.nvim'
-  },
-  {
-    'sainnhe/gruvbox-material'
-  },
-  {
-    "ellisonleao/gruvbox.nvim"
-  },
-  {
-    'luisiacc/gruvbox-baby'
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.colorscheme.catppuccin" },
+    { import = "astrocommunity.colorscheme.gruvbox-baby" },
   },
 }
