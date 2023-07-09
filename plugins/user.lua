@@ -6,6 +6,7 @@ return {
       "catppuccin",
       opts = {
         flavour = "frappe",
+        transparent_background = true, -- disables setting the background color.
         integrations = {
           sandwich = false,
           noice = true,
@@ -23,5 +24,7 @@ return {
     { import = "astrocommunity.colorscheme.gruvbox-baby" },
     { import = "astrocommunity.colorscheme.nord-nvim" },
     { import = "astrocommunity.colorscheme.everforest" },
+    --{ import = "astrocommunity.note-taking.neorg" },
+    { import = "astrocommunity.note-taking.obsidian-nvim" },
   },
 }
