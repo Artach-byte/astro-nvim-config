@@ -26,5 +26,6 @@ return {
     { import = "astrocommunity.colorscheme.everforest" },
     --{ import = "astrocommunity.note-taking.neorg" },
     { import = "astrocommunity.note-taking.obsidian-nvim" },
+    { import = "astrocommunity.editing-support.todo-comments-nvim" },
   },
 }
