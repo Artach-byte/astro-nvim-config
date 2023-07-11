@@ -5,7 +5,7 @@ return {
     { -- further customize the options set by the community
       "catppuccin",
       opts = {
-        flavour = "frappe",
+        flavour = "mocha",
         transparent_background = true, -- disables setting the background color.
         integrations = {
           sandwich = false,
@@ -25,7 +25,7 @@ return {
     { import = "astrocommunity.colorscheme.nord-nvim" },
     { import = "astrocommunity.colorscheme.everforest" },
     --{ import = "astrocommunity.note-taking.neorg" },
-    { import = "astrocommunity.note-taking.obsidian-nvim" },
+    --{ import = "astrocommunity.note-taking.obsidian-nvim" },
     { import = "astrocommunity.editing-support.todo-comments-nvim" },
   },
 }
