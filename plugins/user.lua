@@ -25,5 +25,6 @@ return {
     { import = "astrocommunity.colorscheme.nord-nvim" },
     { import = "astrocommunity.colorscheme.everforest" },
     { import = "astrocommunity.editing-support.todo-comments-nvim" },
+    { import = "astrocommunity.editing-support.rainbow-delimiters-nvim"},
   },
 }
